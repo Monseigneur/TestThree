@@ -1,5 +1,5 @@
 //
-//  TestThreeViewController.h
+//  ThirdViewController.h
 //  TestThree
 //
 //  Created by Milan Justel on 4/4/13.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TestThreeViewController : UIViewController
-@property (weak, nonatomic) IBOutlet UILabel *FirstLabel;
+@interface ThirdViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UILabel *ThirdLabel;
 
 @end

@@ -18,6 +18,9 @@
 		BC67901D170E27B700AF6366 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC67901C170E27B700AF6366 /* Default-568h@2x.png */; };
 		BC679020170E27B700AF6366 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC67901E170E27B700AF6366 /* MainStoryboard.storyboard */; };
 		BC679023170E27B700AF6366 /* TestThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC679022170E27B700AF6366 /* TestThreeViewController.m */; };
+		BC67902B170E27E300AF6366 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC67902A170E27E300AF6366 /* SecondViewController.m */; };
+		BC67902E170E27F800AF6366 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC67902D170E27F800AF6366 /* ThirdViewController.m */; };
+		BC679031170F488B00AF6366 /* Settings.m in Sources */ = {isa = PBXBuildFile; fileRef = BC679030170F488B00AF6366 /* Settings.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +40,12 @@
 		BC67901F170E27B700AF6366 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		BC679021170E27B700AF6366 /* TestThreeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestThreeViewController.h; sourceTree = "<group>"; };
 		BC679022170E27B700AF6366 /* TestThreeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestThreeViewController.m; sourceTree = "<group>"; };
+		BC679029170E27E300AF6366 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		BC67902A170E27E300AF6366 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		BC67902C170E27F800AF6366 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		BC67902D170E27F800AF6366 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		BC67902F170F488B00AF6366 /* Settings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Settings.h; sourceTree = "<group>"; };
+		BC679030170F488B00AF6366 /* Settings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Settings.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +92,12 @@
 		BC67900C170E27B700AF6366 /* TestThree */ = {
 			isa = PBXGroup;
 			children = (
+				BC67902F170F488B00AF6366 /* Settings.h */,
+				BC679030170F488B00AF6366 /* Settings.m */,
+				BC67902C170E27F800AF6366 /* ThirdViewController.h */,
+				BC67902D170E27F800AF6366 /* ThirdViewController.m */,
+				BC679029170E27E300AF6366 /* SecondViewController.h */,
+				BC67902A170E27E300AF6366 /* SecondViewController.m */,
 				BC679015170E27B700AF6366 /* TestThreeAppDelegate.h */,
 				BC679016170E27B700AF6366 /* TestThreeAppDelegate.m */,
 				BC67901E170E27B700AF6366 /* MainStoryboard.storyboard */,
@@ -177,6 +192,9 @@
 				BC679013170E27B700AF6366 /* main.m in Sources */,
 				BC679017170E27B700AF6366 /* TestThreeAppDelegate.m in Sources */,
 				BC679023170E27B700AF6366 /* TestThreeViewController.m in Sources */,
+				BC67902B170E27E300AF6366 /* SecondViewController.m in Sources */,
+				BC67902E170E27F800AF6366 /* ThirdViewController.m in Sources */,
+				BC679031170F488B00AF6366 /* Settings.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
